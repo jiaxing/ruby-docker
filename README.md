@@ -1,6 +1,6 @@
 # ruby-docker
 
-Dockerfile for the [`jaysong/ruby:2.4.2`](https://hub.docker.com/r/jaysong/ruby/)
+Dockerfile for the [`jaysong/ruby:latest`](https://hub.docker.com/r/jaysong/ruby/)
 Docker Hub image.
 
 ## Feature:
@@ -10,5 +10,5 @@ Docker Hub image.
 
 ## How-To:
 ```
-docker run --rm -v $(pwd):/app -v /tmp:/data jaysong/ruby:2.4.2 ./bin/app
+docker run --rm -v $(pwd):/app -v /tmp:/data jaysong/ruby:latest ./bin/app
 ```
